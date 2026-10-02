@@ -1,0 +1,8 @@
+[
+  { "ask": "Add a loyalty-points teaser to the confirmation page", "verdict": "Decline", "date": "2026-03", "reason": "No data on impact, no design ready, competed directly with Unified Onboarding launch prep." },
+  { "ask": "Amazon Lending integration flow for QBO lending offers", "verdict": "Now", "date": "2026-04", "reason": "High impact, clear scope from day one — delivered ahead of schedule after innersourcing 2 engineers." },
+  { "ask": "UK Payments — PBB/PBC ramp", "verdict": "Now", "date": "2026-05", "reason": "Strategic market expansion with clear requirements; extended platform beyond the US market." },
+  { "ask": "Amex partner consent disclosure", "verdict": "Now", "date": "2026-06", "reason": "Hard legal/compliance deadline, requirements finalized — treated as P0 and fast-tracked." },
+  { "ask": "Custom onboarding step for a single enterprise sales prospect", "verdict": "Fast-Follow", "date": "2026-07", "reason": "Low broad impact but small effort — revisited once the Unified Onboarding freeze lifted rather than declined outright." },
+  { "ask": "Sales-initiated onboarding with handoff to customer", "verdict": "Now", "date": "2026-05", "reason": "Delivered in a 2-week sprint; directly cut drop-off at the sales connection point." }
+]

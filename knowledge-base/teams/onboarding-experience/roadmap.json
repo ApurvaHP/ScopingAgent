@@ -1,0 +1,14 @@
+[
+  { "name": "Unified Onboarding", "status": "Shipped", "quarter": "FY26", "note": "Spanned 10 teams and 60+ stakeholders, on time, zero production issues" },
+  { "name": "GTKM (Get to Know Me)", "status": "Shipped", "quarter": "FY26", "note": "AI-powered — 4.7K incremental Net New Actives, $1.1M incremental revenue" },
+  { "name": "UK Payments (PBB/PBC ramp)", "status": "Shipped", "quarter": "FY26", "note": "Extended platform beyond the US market" },
+  { "name": "Sales Onboarding", "status": "Shipped", "quarter": "FY26", "note": "Delivered in a 2-week sprint" },
+  { "name": "Amazon Lending", "status": "Shipped", "quarter": "FY26", "note": "Delivered ahead of schedule via innersourcing" },
+  { "name": "Payments Settings Refactor", "status": "Shipped", "quarter": "FY26" },
+  { "name": "TRON v1 Deprecation", "status": "Shipped", "quarter": "FY26" },
+  { "name": "Edit Profile Flow", "status": "Shipped", "quarter": "FY26" },
+  { "name": "Affirm Phase 1", "status": "Shipped", "quarter": "FY26", "note": "Mid-sized program, phase 1 delivered" },
+  { "name": "Risk MFA Migration", "status": "Shipped", "quarter": "FY26", "note": "Native iOS MFA rollout" },
+  { "name": "Conversational Onboarding Pilot", "status": "Planned", "quarter": "FY27 (not yet scoped)", "note": "Extensibility vision for Onboarding Service — no engineering time committed yet" },
+  { "name": "Native SDK Onboarding", "status": "Planned", "quarter": "FY27 (not yet scoped)", "note": "External partner SDK — no engineering time committed yet" }
+]

@@ -1,0 +1,18 @@
+{
+  "teamName": "Onboarding Experience",
+  "teamSize": 12,
+  "growth": "Grew from 5 to 12 over FY26 — 7 new engineers and 1 new PM onboarded, 3 promotions driven (2 to senior, 1 to staff)",
+  "staffingPools": [
+    { "pool": "Tech lead", "count": 1, "focus": "End-to-end ownership across the platform" },
+    { "pool": "B2B, BillPay & Payments", "count": 2, "focus": "Product-facing integration work" },
+    { "pool": "Payroll", "count": 1, "focus": "Payroll product integration" },
+    { "pool": "Prefill integration", "count": 1, "focus": "Prefill vendor integration (Prove)" },
+    { "pool": "Orchestration layer", "count": 2, "focus": "Onboarding Service — core platform" },
+    { "pool": "RTB & legacy codebase support", "count": 2, "focus": "Run-the-business + TRON legacy maintenance" }
+  ],
+  "leads": 4,
+  "nativeTeam": "1 new independent Native (iOS/Android) team stood up from contract engineers in FY26",
+  "capacityNote": "Team is staffed by scope, not headcount — most engineers are allocated against a specific integration surface, not a general pool. New asks that don't map to an existing staffing pool likely require re-prioritization, not just 'fitting it in'.",
+  "sprintCadence": "2-week sprints (10 working days), though the team ships continuously — release frequency is 2x/week, not gated by sprint boundaries. Used as the reference unit for day/sprint estimates.",
+  "aiDevelopmentStream": "Team has an active AI-assisted development practice: AI is used for scaffolding boilerplate (new components following an existing pattern), test/tracking-event generation, and first-draft PRs off a defined contract. Architecture and contract decisions, correctness-critical edge cases (e.g. caching/deep-merge correctness), cross-team coordination, and production judgment calls stay with an engineer — AI accelerates execution, it doesn't replace the judgment calls."
+}
