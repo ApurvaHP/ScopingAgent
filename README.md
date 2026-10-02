@@ -43,21 +43,3 @@ npm run dev
 
 Open http://localhost:3000
 
-## Deploy to Vercel (same pattern as your other tools)
-
-1. Push this folder to a GitHub repo (or run `npx vercel` directly from this folder).
-2. In the Vercel project settings, add an environment variable `ANTHROPIC_API_KEY` with your key.
-3. Deploy. No other config needed — it's a standard Next.js app.
-
-If `ANTHROPIC_API_KEY` is not set, the app still works: it silently uses the offline fallback scorer (a simple keyword-based heuristic) instead of failing. The UI shows an "offline fallback scorer" tag when that path is used, so you always know which mode produced a result — worth knowing before a live demo, but harmless either way.
-
-## Demo tips
-
-- The example chips on the page are pre-loaded asks spanning all three verdicts (Now, Fast-Follow, Decline) and a mix of compliance/revenue/vague asks — good for showing the range quickly without typing live.
-- If you want a guaranteed offline demo (no network dependency at all), just don't set `ANTHROPIC_API_KEY` in that deployment — it'll always use the fallback scorer, which is fast and consistent.
-- The result card's left border is color-coded by priority (P0 red, P1 amber, P2 blue, backlog gray) — visible at a glance even before reading anything.
-- Each triage is added to a session history rail on the right; click a past entry to revisit it without re-running it — useful if you want to show 2-3 asks back to back and then compare.
-- "Copy summary" on the result card copies a plain-text version of the full output — handy for pasting into a follow-up Slack message or ticket after the demo.
-- Sections below the top-line verdict (Technical Scoping, Build Estimate, Who To Work With, Strategic Questions, Prototype Outline, What Was Retrieved, Agent Reasoning Trace) are collapsible — the highest-signal ones start open, the rest start collapsed so the card doesn't overwhelm on first look.
-- The last example chip ("Someone on the team suggested we look into improving onboarding somehow") is deliberately vague — use it to show the `request_clarification` path live: the agent stops and asks a question back instead of guessing, and you can answer inline to re-triage.
-- The "Lens: ..." tag at the top of each result is the playbook the agent picked for that ask — a good thing to point at when asked whether it's "just one prompt."
